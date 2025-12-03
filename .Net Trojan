@@ -1,0 +1,14 @@
+A ".NET Trojan" is a type of malware written in the .NET framework that disguises itself as a legitimate program to gain access to a user's computer. Once installed, it can perform malicious actions such as stealing personal data, deleting files, or giving hackers control over the system.
+
+Tools Required for Dynamic Analysis of .Net Trojan
+-->Process hacker/process monitor - To check the process 
+-->Wireshark - Check Network Connections
+
+
+Tools Required for Static Analysis of .Net Trojan
+-->Certutil - To get hash Value
+-->DIE - Detect it Easy --> is a static malware analysis tool used to identify executable file types, compilers, packers, and other characteristics without running the code
+
+
+Ditect It Easy 
+--> Open DIE and Select the .exe file - It returns .net executable
